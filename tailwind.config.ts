@@ -31,11 +31,18 @@ const config: Config = {
         'shadow': '#A855F7',
         'destaquesc1': '#A178FF',
         'destaquesc2': '#822FD1',
-        '': ''
+        'planos1': '#8959F699',
+        'planos2': '#390A6684',
+        'btplanos': '#AE8AFF99',
+        'btplanos2': '#8738D26D',
+        'azure': '#B76CFF',
+        'footer1': '#9262FF',
+        'footer2': '#4C0590'
         
       },
 
       spacing: {
+        '0.4': '2px',
         '4xl': '5rem',
         '84': '23rem',
         '98': '26rem',

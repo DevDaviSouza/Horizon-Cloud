@@ -11,6 +11,8 @@ import nvidia from "@/assets/images/nvidia.png"
 import azure from "@/assets/images/azure.png"
 import aws from "@/assets/images/aws.png"
 import cloud from "@/assets/images/cloud.png"
+import Planos from "@/components/planos"
+import Footer from '@/components/footer'
 
 export default function Dashboard() {
   return (
@@ -55,8 +57,8 @@ export default function Dashboard() {
         />
       </section>
       
-      <section className="flex flex-col items-center justify-center">
-        <h2 className=" text-4xl font-black mt-56 mb-24">Nossos Parceiros</h2>
+      <section className="flex flex-col items-center justify-center pb-20 mt-56">
+        <h2 className=" text-4xl font-black mb-24">Nossos Parceiros</h2>
         <div className=" flex flex-row gap-16">
           <Parceiros parceiro={nvidia} />
         
@@ -71,17 +73,80 @@ export default function Dashboard() {
         </div>
       </section>
       
-      <section>
-        
-      </section>
-      
-      <section>
-        
+      <section className=" flex flex-col items-center gap-12 mt-56 mb-32">
+        <h1 className=" text-4xl font-extrabold">Nossos Planos</h1>
+        <h2 className=" text-4xl font-bold text-azure">Azure</h2>
+
+        <div className="gap-44 flex flex-wrap">
+          <Planos
+            title={"Azure Basic"}
+            value={"R$45.00/ 7 dias"}
+            cpu={"4 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={" 28GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+          <Planos
+            title={"Azure Standard"}
+            value={"R$65.00/ 15 dias"}
+            cpu={"4 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={" 28GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+          <Planos
+            title={"Azure Elite"}
+            value={"R$85.00/ 30 dias"}
+            cpu={"4 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={" 28GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+        </div>
+
+        <h2 className=" text-4xl font-bold text-azure">AWS</h2>
+
+        <div className="gap-44 flex flex-wrap">
+          <Planos
+            title={"AWS Basic"}
+            value={"R$65.00/ 7 dias"}
+            cpu={"8 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={"32GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+          <Planos
+            title={"AWS Standard"}
+            value={"R$95.00/ 15 dias"}
+            cpu={"8 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={" 32GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+          <Planos
+            title={"AWS Elite"}
+            value={"R$125.00/ 30dias"}
+            cpu={"8 Núcleos"}
+            gpu={"GPU Nvidia Tesla T4"}
+            ram={" 32GB Memória RAM"}
+            server={"Servidor Brasileiro"}
+            save={"Salva os arquivos"}
+            spot={"Contém Spot"}
+          />
+          </div>
       </section>
 
-      <footer>
-        
-      </footer>
+      <Footer />
     </div>
   );
 }
