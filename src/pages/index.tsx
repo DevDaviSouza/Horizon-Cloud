@@ -13,6 +13,7 @@ import aws from "@/assets/images/aws.png"
 import cloud from "@/assets/images/cloud.png"
 import Planos from "@/components/planos"
 import Footer from '@/components/footer'
+import { useRouter } from "next/router"
 
 export default function Dashboard() {
   return (
@@ -25,7 +26,7 @@ export default function Dashboard() {
               <div className=" max-w-124 text-2xl"> Execute seus jogos favoritos sem o incômodo de possuir qualquer hardware</div>
 
               <div className="flex gap-12 mt-8">
-                <Button title="Nossos Planos" />
+                <Button title="Nossos Planos"/>
                 <Button title="Cadastrar-se" />
               </div>
             </div>

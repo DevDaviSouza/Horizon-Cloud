@@ -26,9 +26,9 @@ const config: Config = {
       colors: {
         'fundo': '#18181B',
         'botoes': '#8B5CF64D',
-        'cor1': '#7E22CE',
-        'cor2': '#3B0764B2',
-        'shadow': '#A855F7',
+        'cor1': '#7e47ff',
+        'cor2': '#986cfe',
+        'shadow': '#822FD1',
         'destaquesc1': '#A178FF',
         'destaquesc2': '#822FD1',
         'planos1': '#8959F699',
@@ -37,8 +37,8 @@ const config: Config = {
         'btplanos2': '#8738D26D',
         'azure': '#B76CFF',
         'footer1': '#9262FF',
-        'footer2': '#4C0590'
-        
+        'footer2': '#4C0590',
+        'purple500': '##9933FB',
       },
 
       spacing: {

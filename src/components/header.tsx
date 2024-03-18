@@ -9,9 +9,9 @@ export default function Header() {
         <Image className="w-24  h-28" src={Logo} alt="logo" />
 
         <div className="w-128 flex flex-row justify-around bg-botoes h-10 rounded-lg shadow-md shadow-shadow">
-            <div className="flex p-4 w-24 items-center justify-center">Início</div>
-            <div className="flex p-4 w-36 items-center justify-center">Sobre nós</div>
-            <div className="flex p-4 w-24 items-center justify-center">Planos</div>
+            <div className="flex p-4 w-24 items-center justify-center"><a href="/">Início</a></div>
+            <div className="flex p-4 w-36 items-center justify-center"><a href="sobre-nos">Sobre nós</a></div>
+            <div className="flex p-4 w-24 items-center justify-center"><a href="#">Planos</a></div>
         </div>
 
         <Button title={"Minha conta"} />
