@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/components/buttons.jsx", "src/components/destaques_s2.jsx"  ],
   "exclude": [
     "node_modules"
   ]
