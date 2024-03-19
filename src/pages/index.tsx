@@ -20,25 +20,25 @@ export default function Dashboard() {
     <div className="m-0 bg-fundo h-vh">
         <Header />
 
-      <section className="flex flex-row justify-evenly items-center my-28">
-            <div className="">
-              <div className="  font-extrabold text-3xl max-w-128 mb-7"> Trabalhe, jogue, renderize e muito mais através de um PC de ultima geração</div>
-              <div className=" max-w-124 text-2xl"> Execute seus jogos favoritos sem o incômodo de possuir qualquer hardware</div>
+      <section className="flex flex-row lg:flex-col justify-evenly items-center my-28 lg:justify-center lg:text-center">
+            <div className="flex flex-col items-center sm:mx-5">
+              <div className="font-extrabold text-3xl max-w-128 mb-7 sm:text-2xl"> Trabalhe, jogue, renderize e muito mais através de um PC de ultima geração</div>
+              <div className="max-w-124 text-2xl sm:text-xl"> Execute seus jogos favoritos sem o incômodo de possuir qualquer hardware</div>
 
-              <div className="flex gap-12 mt-8">
+              <div className="flex gap-12 mt-8 lg:mb-20">
                 <Button title="Nossos Planos"/>
                 <Button title="Cadastrar-se" />
               </div>
             </div>
 
-            <div className= "flex flex-col   ">
-              <div className= "w-80 h-80 bg-gradient-to-b from-cor1 to-cor2 rounded-full items-center justify-center ">
-                <Image className=" ml-2 h-80 sticky left-130" src={atirador} alt="atirador" />
+            <div className= "flex flex-col">
+              <div className= "w-80 h-80 bg-gradient-to-b from-circulo1 to-circulo2 rounded-full items-center justify-center ">
+                <Image className=" ml-2 h-80 left-130" src={atirador} alt="atirador" />
               </div>
             </div>
       </section>
       
-      <section className="flex flex-row justify-evenly pt-24">
+      <section className="flex flex-row lg:flex-col justify-evenly items-center pt-24 md:pt-12">
         <Destaques
           image={destaque1}
           title="Baixa Latencia"
@@ -58,9 +58,9 @@ export default function Dashboard() {
         />
       </section>
       
-      <section className="flex flex-col items-center justify-center pb-20 mt-56">
+      <section className="flex flex-col items-center justify-center pb-20 mt-56 md:mt-32">
         <h2 className=" text-4xl font-black mb-24">Nossos Parceiros</h2>
-        <div className=" flex flex-row gap-16">
+        <div className=" flex flex-row gap-16 md:gap-6">
           <Parceiros parceiro={nvidia} />
         
       
@@ -74,11 +74,11 @@ export default function Dashboard() {
         </div>
       </section>
       
-      <section className=" flex flex-col items-center gap-12 mt-56 mb-32">
+      <section className=" flex flex-col items-center gap-12 mt-56 lg:mt-32 mb-32 lg:justify-center">
         <h1 className=" text-4xl font-extrabold">Nossos Planos</h1>
         <h2 className=" text-4xl font-bold text-azure">Azure</h2>
 
-        <div className="gap-44 flex flex-wrap">
+        <div className="gap-44 flex flex-wrap justify-center">
           <Planos
             title={"Azure Basic"}
             value={"R$45.00/ 7 dias"}
@@ -113,7 +113,7 @@ export default function Dashboard() {
 
         <h2 className=" text-4xl font-bold text-azure">AWS</h2>
 
-        <div className="gap-44 flex flex-wrap">
+        <div className="gap-44 flex flex-wrap justify-center">
           <Planos
             title={"AWS Basic"}
             value={"R$65.00/ 7 dias"}

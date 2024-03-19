@@ -7,6 +7,26 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+    screens: {
+      '2xl': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'mlg':{'min': '1023px'},
+
+      'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+    },
+
     borderRadius: {
       'none': '0',
       'sm': '0.125rem',
@@ -39,6 +59,8 @@ const config: Config = {
         'footer1': '#9262FF',
         'footer2': '#4C0590',
         'purple500': '##9933FB',
+        'circulo1': '#7E22CE',
+        'circulo2': '#3B0764B2'
       },
 
       spacing: {
