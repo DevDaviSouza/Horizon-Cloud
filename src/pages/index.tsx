@@ -21,7 +21,7 @@ export default function Dashboard() {
         <Header />
 
       <section className="flex flex-row lg:flex-col justify-evenly items-center my-28 lg:justify-center lg:text-center">
-            <div className="flex flex-col items-center sm:mx-5">
+            <div className="flex flex-col lg:items-center sm:mx-5">
               <div className="font-extrabold text-3xl max-w-128 mb-7 sm:text-2xl"> Trabalhe, jogue, renderize e muito mais através de um PC de ultima geração</div>
               <div className="max-w-124 text-2xl sm:text-xl"> Execute seus jogos favoritos sem o incômodo de possuir qualquer hardware</div>
 
