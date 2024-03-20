@@ -11,7 +11,7 @@ export default function Header() {
         <div className="w-128 flex flex-row justify-around bg-botoes h-10 rounded-lg shadow-md shadow-shadow lg:hidden">
             <div className="flex p-4 w-24 items-center justify-center"><a href="/">Início</a></div>
             <div className="flex p-4 w-36 items-center justify-center"><a href="sobre-nos">Sobre nós</a></div>
-            <div className="flex p-4 w-24 items-center justify-center"><a href="#">Planos</a></div>
+            <div className="flex p-4 w-24 items-center justify-center"><a href="planos">Planos</a></div>
         </div>
             
         <div className="flex flex-col mlg:hidden lg:visible gap-1 opacity-100">

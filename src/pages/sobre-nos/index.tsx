@@ -27,8 +27,8 @@ export default function Sobre() {
             </div>
 
             <div className= "flex flex-col   ">
-              <div className= "w-80 h-80 bg-gradient-to-b from-cor1 to-cor2 rounded-full items-center justify-center ">
-                <Image className=" ml-2 h-80 sticky left-130" src={atirador} alt="atirador" />
+            <div className= "w-80 h-80 bg-gradient-to-b from-circulo1 to-circulo2 rounded-full items-center justify-center ">
+                <Image className=" ml-2 h-80 left-130" src={atirador} alt="atirador" />
               </div>
             </div>
       </section>
