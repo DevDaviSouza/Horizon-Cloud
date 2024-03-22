@@ -60,7 +60,8 @@ const config: Config = {
         'footer2': '#4C0590',
         'purple500': '##9933FB',
         'circulo1': '#7E22CE',
-        'circulo2': '#3B0764B2'
+        'circulo2': '#3B0764B2',
+        'minhaConta': '#1e0b4a'
       },
 
       spacing: {
@@ -69,6 +70,7 @@ const config: Config = {
         '84': '23rem',
         '98': '26rem',
         '124': '34rem',
+        '125': '34.5rem',
         '128': '42rem',
         '129': '48rem',
         '130': '58rem',
