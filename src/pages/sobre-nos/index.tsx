@@ -52,13 +52,15 @@ export default function Sobre() {
         </div>
       </section>
       
-      <section className="flex flex-row justify-evenly items-center mt-56 lg:flex-col">
-      <div className= "flex flex-col   ">
+      <section className="flex flex-row justify-evenly items-center mt-56 lg:flex-col ">
+        <div className="max-w-256 w-256 justify-evenly flex flex-row lg:flex-col">
+      <div className= "flex flex-col">
                 <Image className=" ml-2 lg:ml-0 w-124 rounded-md sticky left-130" src={business} alt="atirador" />
             </div>
             <div className="flex flex-col lg:text-center">
               <div className="font-extrabold text-5xl max-w-128 mb-5 lg:text-4xl lg:mt-14"> Porque escolher a <b className="text-cor1">Horizon Cloud</b> ?</div>
               <div className=" max-w-124 text-lg lg:mx-5"> Na Horizon Cloud buscamos por soluções confiáveis e sem preocupações, a nossa empresa tem como missão oferecer o melhor serviço de cloud games para os seus clientes. Com uma equipe altamente capacitada e especializada, garantimos atendimento eficiente.</div>
+            </div>
             </div>
       </section>
       
