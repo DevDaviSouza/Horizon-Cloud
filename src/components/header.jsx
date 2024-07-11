@@ -20,11 +20,12 @@ export default function Header() {
     }
 
     return (
-        <div className="flex flex-col justify-end">
+        <div className="flex flex-row justify-center items-center ">
+            <div className=" w-158">
             <nav className="flex justify-around w-full font-semibold items-center lg:justify-between lg:px-10 md:px-10 sm:px-5 lg:bg-botoes  lg:top-0 "> 
             <Image className="w-24 sm:w-20 sm:h-24 h-28" src={Logo} alt="logo" />
 
-            <div className="w-128 flex flex-row justify-around bg-botoes h-10 rounded-lg shadow-md shadow-shadow lg:hidden">
+            <div className="w-130 m-w-130 flex flex-row justify-around bg-botoes h-10 rounded-lg shadow-md shadow-shadow lg:hidden">
                 <div className="flex p-4 w-24 items-center justify-center"><a href="/">Início</a></div>
                 <div className="flex p-4 w-36 items-center justify-center"><a href="sobre-nos">Sobre nós</a></div>
                 <div className="flex p-4 w-24 items-center justify-center"><a href="planos">Planos</a></div>
@@ -44,8 +45,7 @@ export default function Header() {
                 <div className="flex p-4 w-full items-center justify-center"><a href="/">Início</a></div>
                 <div className="flex p-4 w-full items-center justify-center"><a href="sobre-nos">Sobre nós</a></div>
                 <div className="flex p-4 w-full items-center justify-center"><a href="planos">Planos</a></div>
-                
-                
+            </div>
             </div>
         </div>
 )}
