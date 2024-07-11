@@ -27,7 +27,7 @@ export default function Sobre() {
       </section>
 
       <div className="flex justify-center font-extrabold text-3xl mb-5 mt-56 text-center">Nossos diferenciais:</div>
-      <section className="flex flex-row lg:flex-col justify-evenly items-center mt-10 md:pt-12">
+      <section className="flex flex-row lg:flex-col justify-evenly items-center mt-10 md:pt-12 md:gap-10">
         
             <Destaques
               image={money}
