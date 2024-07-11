@@ -31,8 +31,8 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <section className="flex flex-row lg:flex-col justify-center items-center pt-32 md:pt-12  ">
-        <div className="flex flex-row  justify-evenly w-154 max-w-256">
+      <section className="flex flex-row lg:flex-col justify-evenly items-center pt-32 md:pt-12">
+        
           <Destaques
             image={destaque1}
             title="Baixa Latencia"
@@ -50,7 +50,7 @@ export default function Dashboard() {
             title="Suporte em ate 4K"
             text="O streaming de alta definição com resolução 4k oferece uma experiência de jogo envolvente."
           />
-        </div>
+ 
       </section>
 
       <section className="flex flex-col items-center justify-center pb-20 mt-56 md:mt-32 mb-56">
