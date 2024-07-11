@@ -12,7 +12,7 @@ import Footer from '@/components/footer'
 
 export default function Sobre() {
   return (
-    <div className="m-0 bg-fundo h-vh">
+    <div className="m-0 bg-fundo h-vh justify-center">
       <Header />
 
       <section className="flex flex-col  items-center justify-center mt-28">
@@ -26,11 +26,9 @@ export default function Sobre() {
         </div>
       </section>
 
-      <section className="justify-evenly items-center my-28 flex flex-col mt-56">
-        <div className=" justify-center">
-          <div className="font-extrabold text-3xl max-w-128 mb-5 ">Nossos diferenciais:</div>
-
-          <div className="flex flex-row gap-36 mt-8 sm:flex-col">
+      <div className="flex justify-center font-extrabold text-3xl mb-5 mt-56 text-center">Nossos diferenciais:</div>
+      <section className="flex flex-row lg:flex-col justify-evenly items-center mt-10 md:pt-12">
+        
             <Destaques
               image={money}
               title="Preço Acessível"
@@ -48,8 +46,6 @@ export default function Sobre() {
               title="Suporte eficiente"
               text="Temos uma equipe composta por diversos especialistas que estão preparados para atendê- lo de forma eficiente e rápidal."
             />
-          </div>
-        </div>
       </section>
 
       <section className="flex flex-row justify-evenly items-center mt-56 lg:flex-col">
