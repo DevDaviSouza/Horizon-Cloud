@@ -45,7 +45,7 @@ const config: Config = {
 
       colors: {
         'fundo': '#18181B',
-        'botoes': '#8B5CF64D',
+        'botoes': '#4100c2',
         'cor1': '#7e47ff',
         'cor2': '#986cfe',
         'shadow': '#822FD1',
