@@ -1,19 +1,7 @@
 import Header from "@/components/header"
-import atirador from "../../assets/images/atirador.png"
-import destaque1 from "../../assets/images/destaque1.png"
-import destaque2 from "../../assets/images/destaque2.png"
-import destaque3 from "../../assets/images/destaque3.png"
 import Button from "@/components/buttons"
-import Image from "next/image"
-import Destaques from "@/components/destaques_s2"
-import Parceiros from "@/components/parceiros"
-import nvidia from "@/assets/images/nvidia.png"
-import azure from "@/assets/images/azure.png"
-import aws from "@/assets/images/aws.png"
-import cloud from "@/assets/images/cloud.png"
 import Planos from "@/components/planos"
 import Footer from '@/components/footer'
-import { useRouter } from "next/router"
 
 export default function Dashboard() {
   return (
@@ -26,7 +14,8 @@ export default function Dashboard() {
           <div className="flex flex-col  text-2xl sm:text-xl text-center items-center justify-center"> Descubra ainda hoje o poder das nossas Maquinas Virtuais e adquire agora mesmo uma.</div>
 
           <div className="flex gap-12 mt-8 lg:mb-20 items-center justify-center">
-            <Button title="Cadastrar-se" />
+            <Button title="Cadastrar-se" url="cadastrar" />
+
           </div>
         </div>
 

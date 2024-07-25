@@ -11,7 +11,6 @@ import nvidia from "@/assets/images/nvidia.png"
 import azure from "@/assets/images/azure.png"
 import aws from "@/assets/images/aws.png"
 import cloud from "@/assets/images/cloud.png"
-import Planos from "@/components/planos"
 import Footer from '@/components/footer'
 
 
@@ -26,7 +25,7 @@ export default function Dashboard() {
           <div className="flex flex-col  text-2xl sm:text-xl text-center items-center justify-center"> Execute seus jogos favoritos sem o incômodo de possuir qualquer hardware</div>
 
           <div className="mt-8 items-center justify-center">
-            <Button title="Cadastrar-se" />
+            <Button title="Cadastrar-se" url="cadastrar" />
           </div>
         </div>
       </section>

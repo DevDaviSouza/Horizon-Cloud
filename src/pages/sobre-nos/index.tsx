@@ -21,7 +21,7 @@ export default function Sobre() {
           <div className="flex flex-col  text-2xl sm:text-xl text-center items-center justify-center"> A Horizon surgiu para fornecer aos clientes o melhor Serviço de Cloud Games do Brasil.</div>
 
           <div className="flex gap-12 mt-8">
-            <Button title="Cadastrar-se" />
+            <Button title="Cadastrar-se" url="cadastrar" />
           </div>
         </div>
       </section>
@@ -65,8 +65,8 @@ export default function Sobre() {
             <h2 className="text-2xl font-semibold">Selecione o plano que se encaixa com o seu orçamento e adquira agora!
               Ou entre em contato com nossa equipe para obter uma solução exclusiva para você.</h2>
             <div className="flex gap-12 mt-8 items-center justify-center">
-              <Button title="Escolher plano" />
-              <Button title="Contato" />
+              <Button title="Escolher plano" url="#"/>
+              <Button title="Contato" url="#" />
             </div>
           </div>
 

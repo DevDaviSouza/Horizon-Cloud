@@ -5,6 +5,7 @@ import { useState } from "react";
 
 
 
+
 export default function Header() {
 
     const [menu, setMenu] = useState(false)
@@ -38,7 +39,7 @@ export default function Header() {
                         <a className="border w-5 h-1 bg-white" href="#"></a>
                     </div>
 
-                    <div className="lg:hidden"><Button title={"Minha conta"} /></div>
+                    <div className="lg:hidden"><Button title={"Minha conta"} url="cadastrar"/></div>
                 </nav>
 
                 <div id="menu" className={menu === true ? "visible right-0 top-24 opacity-100 bg-opacity-100 bg-botoes  rounded-b-lg  flex flex-col items-center justify-center w-full " : "hidden"}>
